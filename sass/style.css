@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.selected {
+  border: 2px solid #4FBF65 !important;
+}
+
+.active {
+  color: #53D56C;
+}
+
+.checked {
+  color: #fff;
+}
+
+.number-active {
+  color: #fff;
+  background-color: #53D56C;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.icon-check {
+  color: #fff;
+  background-color: #53D56C;
+  border-radius: 50%;
+  padding: 4px 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.icon-checked {
+  color: #fff;
+  background-color: #6C70DC;
+  border-radius: 50%;
+  padding: 4px 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.staff .row .left ul li a {
+  color: #626C76;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .left ul li a .number {
+  color: #fff;
+  background-color: #626C76;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.staff .row .right {
+  position: relative;
+  background: #F5F7FA;
+}
+.staff .row .right .container .list-group {
+  margin-top: 20px;
+}
+.staff .row .right .container .list-group .list-group-item {
+  border: none;
+  margin-bottom: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.staff .row .right .container .list-group .list-group-item .price {
+  margin: auto 0;
+  color: #4FBF65;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.staff .row .right .container .list-group .list-group-item img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.staff .row .right .container .list-group .list-group-item .head {
+  color: #292D32;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.staff .row .right .container .list-group .list-group-item span {
+  color: #828F9A;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+.staff .row .right .container .col-md-7 .icons {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: center;
+  color: #000;
+}
+.staff .row .right .container .col-md-7 .icons #currentMonth {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .col-md-7 .icons button {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.staff .row .right .container .col-md-7 .icons button:hover, .staff .row .right .container .col-md-7 .icons button:visited, .staff .row .right .container .col-md-7 .icons button:active {
+  border: none !important;
+}
+.staff .row .right .container .col-md-7 .icons button:hover {
+  background: #f2f2f2;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar {
+  margin-top: 5px;
+  width: 90%;
+  background-color: #FFF;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  margin: 0 auto;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar thead {
+  padding: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar thead tr {
+  padding-top: 20px;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar thead tr th {
+  color: #C8C9CC;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar tbody {
+  padding-top: 20px;
+}
+.staff .row .right .container .col-md-7 .conAll #calendar tbody tr td {
+  color: #AAACAF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0;
+  padding: 5px 0;
+}
+.staff .row .right .container .col-md-5 header .icons {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: center;
+  color: #000;
+}
+.staff .row .right .container .col-md-5 header .icons .time {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .col-md-5 .wright {
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+}
+.staff .row .right .container .col-md-5 .wright .calendar .dateHead {
+  color: #6C70DC;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .col-md-5 .wright .calendar .hours {
+  padding: 0;
+}
+.staff .row .right .container .col-md-5 .wright .calendar .hours .hourbtn {
+  background: #ECEFF2;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0;
+}
+.staff .row .right .container .col-md-5 .wright .calendar .hours .hourbtn span {
+  color: #111;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .row .col-sm-6 .form-label {
+  color: #292D32;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .row .col-sm-6 .form-label span {
+  color: #EF264D;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.staff .row .right .container .row .col-12 .head {
+  color: #6C70DC;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 10px;
+}
+.staff .row .right .container .row .col-12 .price {
+  color: #4FBF65;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.staff .row .right .container .row .col-12 span {
+  color: #111;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.staff .row .right footer {
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.staff .row .right footer .container .select-btn {
+  color: #fff;
+  background-color: #dfad6c;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+.staff .row .right footer .container .select-btn span {
+  color: #FFF;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+.staff .row .right footer .container .next-btn {
+  background: #6C70DC;
+  border-radius: 2px;
+}
+.staff .row .right footer .container .next-btn span {
+  color: #FFF;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.staff .row .right footer .container .back-btn {
+  border-radius: 2px;
+  border: 1px solid #E3EAF3;
+  background: #F7F8FB;
+}
+.staff .row .right footer .container .back-btn span {
+  color: #8F9CA7;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.staff .row .right .modal .modal-header {
+  border-bottom: none;
+}
+.staff .row .right .modal .error {
+  color: #F39C12;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.staff .row .right .modal .confirm {
+  color: #38CF78;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.list-active {
+  border: 2px solid #4FBF65 !important;
+}
+
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.days li.active::before {
+  background: #38CF78;
+}
+
+.days li:not(.active):hover::before {
+  background: #f2f2f2;
+}/*# sourceMappingURL=style.css.map */
